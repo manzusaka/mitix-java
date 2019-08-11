@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mitix</groupId>
+    <artifactId>mitix-java</artifactId>
+    <version>0.9.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <scm>
+        <connection>scm:git:https://github.com/infoconsole/mitix</connection>
+        <developerConnection>scm:git:https://github.com/infoconsole/mitix</developerConnection>
+        <url>https://github.com/infoconsole/mitix</url>
+        <tag></tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>mitix-releases</id>
+            <name>mitix nexus release</name>
+            <url>http://www.mitix.cn:8081/nexus/repository/maven-releases/</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>mitix-snapshots</id>
+            <name>mitix nexus snapshot</name>
+            <url>http://www.mitix.cn:8081/nexus/repository/maven-snapshots/</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <!--可以进行分支管理-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <tagBase>https://github.com/infoconsole/mitix/tags</tagBase>
+                    <branchBase>https://github.com/infoconsole/mitix/branches</branchBase>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>mitix-dependencies</module>
+        <module>mitix-len</module>
+    </modules>
+</project>
