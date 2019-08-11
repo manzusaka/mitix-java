@@ -15,10 +15,17 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
+    <!--没有jdk 暂时设置成1.8-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.11</maven.compiler.source>
-        <maven.compiler.target>1.11</maven.compiler.target>
+        <!--
+                <maven.compiler.source>11</maven.compiler.source>
+        -->
+        <!--
+                <maven.compiler.target>11</maven.compiler.target>
+        -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -36,9 +43,10 @@
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.7.0</version>
+                    <!--没有jdk 暂时设置成1.8-->
                     <configuration>
-                        <source>1.11</source>
-                        <target>1.11</target>
+                        <source>1.8</source>
+                        <target>1.8</target>
                     </configuration>
                 </plugin>
             </plugins>
