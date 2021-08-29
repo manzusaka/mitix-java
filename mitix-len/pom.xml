@@ -11,11 +11,9 @@
     <packaging>pom</packaging>
 
     <modules>
-
         <module>mitix-len-base6</module>
         <module>mitix-len-base7</module>
         <module>mitix-len-base8</module>
-        <module>mitix-len-base11</module>
         <module>mitix-len-ooad</module>
     </modules>
 
