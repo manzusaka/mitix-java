@@ -15,6 +15,7 @@
         <tag>mitix-java-0.9.2</tag>
     </scm>
 
+
     <distributionManagement>
         <repository>
             <id>2453685-release-brSrHd</id>
