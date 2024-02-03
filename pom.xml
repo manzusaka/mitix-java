@@ -3,7 +3,7 @@
 
     <groupId>com.mitix</groupId>
     <artifactId>mitix-java</artifactId>
-    <version>0.9.3-SNAPSHOT</version>
+    <version>0.9.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
