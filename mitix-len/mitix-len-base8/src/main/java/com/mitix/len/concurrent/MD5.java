@@ -1,7 +1,6 @@
 package com.mitix.len.concurrent;
 
 import com.mitix.len.concurrent.log.MD5Util;
-import com.mitix.len.concurrent.log.StringUtils;
 
 import java.util.HashMap;
 import java.util.Map;
