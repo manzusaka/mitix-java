@@ -15,15 +15,15 @@
 
     <distributionManagement>
         <repository>
-            <id>mitix-releases</id>
-            <name>mitix nexus release</name>
-            <url>http://www.mitix.cn:8081/nexus/repository/maven-releases/</url>
+            <id>2453685-release-brSrHd</id>
+            <name>mitix-release-aliyun</name>
+            <url>https://packages.aliyun.com/maven/repository/2453685-release-brSrHd</url>
             <layout>default</layout>
         </repository>
         <snapshotRepository>
-            <id>mitix-snapshots</id>
-            <name>mitix nexus snapshot</name>
-            <url>http://www.mitix.cn:8081/nexus/repository/maven-snapshots/</url>
+            <id>2453685-snapshot-4kPeNO</id>
+            <name>mitix-snapshot-aliyun</name>
+            <url>https://packages.aliyun.com/maven/repository/2453685-snapshot-4kPeNO</url>
             <layout>default</layout>
         </snapshotRepository>
     </distributionManagement>
