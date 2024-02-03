@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mitix.dependencies</groupId>
     <artifactId>mitix-dependencies</artifactId>
-    <version>0.9.3</version>
+    <version>0.9.4-SNAPSHOT</version>
     <name>mitix-dependencies</name>
     <packaging>pom</packaging>
 
@@ -12,7 +12,7 @@
         <connection>scm:git:https://github.com/infoconsole/mitix-java</connection>
         <developerConnection>scm:git:https://github.com/infoconsole/mitix-java</developerConnection>
         <url>https://github.com/infoconsole/mitix-java</url>
-        <tag>mitix-java-0.9.3</tag>
+        <tag></tag>
     </scm>
 
 
