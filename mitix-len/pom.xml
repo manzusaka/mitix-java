@@ -4,7 +4,7 @@
 
     <groupId>com.mitix.len</groupId>
     <artifactId>mitix-len</artifactId>
-    <version>0.9.6-SNAPSHOT</version>
+    <version>0.9.5-SNAPSHOT</version>
     <name>mitix-len</name>
     <packaging>pom</packaging>
 
@@ -58,7 +58,7 @@
             <dependency>
                 <groupId>com.mitix.dependencies</groupId>
                 <artifactId>mitix-dependencies</artifactId>
-                <version>0.9.6-SNAPSHOT</version>
+                <version>0.9.5-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
