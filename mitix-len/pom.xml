@@ -38,7 +38,6 @@
         </snapshotRepository>
     </distributionManagement>
 
-
     <!--可以进行分支管理-->
     <build>
         <plugins>
