@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mitix.dependencies</groupId>
     <artifactId>mitix-dependencies</artifactId>
-    <version>0.9.4-SNAPSHOT</version>
+    <version>0.9.3-SNAPSHOT</version>
     <name>mitix-dependencies</name>
     <packaging>pom</packaging>
 
