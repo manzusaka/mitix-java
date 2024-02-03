@@ -3,14 +3,14 @@
 
     <groupId>com.mitix</groupId>
     <artifactId>mitix-java</artifactId>
-    <version>0.9.5</version>
+    <version>0.9.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
         <connection>scm:git:https://github.com/manzusaka/mitix-java</connection>
         <developerConnection>scm:git:https://github.com/manzusaka/mitix-java</developerConnection>
         <url>https://github.com/manzusaka/mitix-java</url>
-        <tag>mitix-java-0.9.5</tag>
+        <tag></tag>
     </scm>
 
     <distributionManagement>
