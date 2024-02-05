@@ -12,6 +12,7 @@ bin
 *asta.bak*
 *asta.lock*
 mitix-len/docs/*asta.lock*
+/lib/
 
 # eclipse specific git ignore
 *.pydevproject
